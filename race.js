@@ -34,9 +34,9 @@ class Race{
         if(this._runnerA >= 100 && this._runnerB >= 100){
             return `¡Empate!`;
         } if(this._runnerA >= 100 && this._runnerB <= 100){
-            return `Corredor 1, gana.`;
+            return `Corredor 1 gana.`;
         } if(this._runnerB >= 100 && this._runnerA <= 100){
-            return `Corredor 2, gana.`;
+            return `Corredor 2 gana.`;
         }
     }
 }
